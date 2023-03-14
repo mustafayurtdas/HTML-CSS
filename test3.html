@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form method="post" action="">
+      <label for="ad">Ad Soyad*</label>
+      <input
+        required
+        id="ad"
+        type="text"
+        name="ad"
+        placeholder="Adınızı giriniz"
+      />
+      <br />
+      <label for="email">Email*</label>
+      <input
+        id="email"
+        type="email"
+        name="eposta"
+        required
+        placeholder="info@example.com"
+      />
+      <br />
+      <label for="maas">Maaş</label>
+      <input
+        id="maas"
+        type="number"
+        name="maas"
+        min="1000"
+        max="15000"
+        required
+      />
+      <br />
+      <label for="psw">Şifre</label>
+      <input id="psw" type="password" name="pass" />
+      <br />
+      <label for="mes">Meslek</label>
+      <input id="mes" type="search" name="meslek" />
+      <br />
+
+      <label for="adres">Adres</label>
+      <br />
+      <textarea name="adres" id="adres" cols="30" rows="3"></textarea>
+      <br />
+
+      <label for="ulke"></label>
+      <select name="ulke" id="ulke">
+        <option value="tr">Türkiye</option>
+        <option value="usa">ABD</option>
+        <option value="eu">Avrupa</option>
+        <option value="af">Afrika</option>
+        <option value="asy">Asya</option>
+      </select>
+      <br />
+
+      <input type="submit" value="Kaydet" />
+      <input type="reset" value="Temizle" />
+      <input type="button" value="İptal" />
+    </form>
+  </body>
+</html>
