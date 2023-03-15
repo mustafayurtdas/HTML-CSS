@@ -1,0 +1,23 @@
+.kutu1{
+    background-color: red;
+    height: 50px;
+    width: 50%;
+}
+
+.kutu2{
+    background-color: rgb(20, 141, 70);
+    height: 50px;
+    width: 70%;
+}
+
+.kutu3{
+    background-color: rgba(179, 255, 0, 0.767);
+    height: 50px;
+    width: 80%;
+}
+
+.kutu4{
+    background-color: rgb(17, 68, 209);
+    height: 50px;
+    width: 80%;
+}

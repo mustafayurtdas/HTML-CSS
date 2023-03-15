@@ -10,3 +10,25 @@ p{
 body{
     background-color: aquamarine;
 }
+
+a{
+    text-decoration: none;
+    color: green;
+}
+
+a:hover{
+    background-color: red;
+    color: aliceblue;
+}
+a:visited{
+    color: gold;
+}
+
+.price-old{
+    text-decoration: line-through;
+}
+
+.dersler{
+    list-style-type:"😊";
+    line-height: 2rem;
+}

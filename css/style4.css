@@ -1,0 +1,29 @@
+.container{
+    background-color: gray;
+    padding: 50px;
+    margin: 30px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.box1{
+    background-color: aqua;
+}
+
+.box2{
+    background-color: rgb(81, 255, 0);
+    margin: 0 30px;
+}
+
+.box3{
+    background-color: rgb(95, 20, 33);
+}
+
+.box4{
+    background-color: rgb(43, 4, 41);
+}
+
